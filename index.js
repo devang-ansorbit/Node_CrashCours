@@ -73,7 +73,7 @@ const server = http.createServer((req, res) => {
       }else {
         // Servor side error
         res.writeHead(500);
-        res.end(`Server Error : ${err.code}`)
+        res.end(`Server Error : ${err.code}`) ;
       }
     } else {
       // Success Response 
